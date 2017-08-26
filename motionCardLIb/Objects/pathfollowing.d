@@ -1,0 +1,16 @@
+.\objects\pathfollowing.o: motionCard\pathFollowing.c
+.\objects\pathfollowing.o: motionCard\pathFollowing.h
+.\objects\pathfollowing.o: motionCard\calculate.h
+.\objects\pathfollowing.o: motionCard\MotionCard.h
+.\objects\pathfollowing.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\pathfollowing.o: motionCard\ringBuffer.h
+.\objects\pathfollowing.o: motionCard\stm32f4xx.h
+.\objects\pathfollowing.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\objects\pathfollowing.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pathfollowing.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\pathfollowing.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\pathfollowing.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\objects\pathfollowing.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\objects\pathfollowing.o: motionCard\Bspline.h
+.\objects\pathfollowing.o: motionCard\posSystem.h
+.\objects\pathfollowing.o: motionCard\Move.h

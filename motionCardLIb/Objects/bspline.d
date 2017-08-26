@@ -1,0 +1,15 @@
+.\objects\bspline.o: motionCard\Bspline.c
+.\objects\bspline.o: motionCard\Bspline.h
+.\objects\bspline.o: motionCard\calculate.h
+.\objects\bspline.o: motionCard\MotionCard.h
+.\objects\bspline.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\bspline.o: motionCard\ringBuffer.h
+.\objects\bspline.o: motionCard\stm32f4xx.h
+.\objects\bspline.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\objects\bspline.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bspline.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\bspline.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\bspline.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\objects\bspline.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\objects\bspline.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\bspline.o: motionCard\posSystem.h

@@ -1,0 +1,9 @@
+--cpu Cortex-M4.fp
+".\objects\bspline.o"
+".\objects\caculate.o"
+".\objects\pathfollowing.o"
+".\objects\ringbuffer.o"
+--strict --scatter ".\Objects\motionCard.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\motionCard.map" -o .\Objects\motionCard.axf

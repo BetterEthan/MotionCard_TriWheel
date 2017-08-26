@@ -1,0 +1,10 @@
+--create .\Objects\motionCard.lib
+.\objects\bspline.o
+.\objects\pathfollowing.o
+.\objects\ringbuffer.o
+.\objects\possystem.o
+.\objects\sampling.o
+.\objects\flash.o
+.\objects\speedplaning.o
+.\objects\calculate.o
+.\objects\move.o
