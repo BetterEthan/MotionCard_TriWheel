@@ -14,3 +14,4 @@
 .\objects\ringbuffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\ringbuffer.o: motionCard\posSystem.h
 .\objects\ringbuffer.o: motionCard\SpeedPlaning.h
+.\objects\ringbuffer.o: motionCard\Move.h

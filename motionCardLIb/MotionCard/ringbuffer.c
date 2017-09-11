@@ -17,6 +17,7 @@
 #include "math.h"
 #include "posSystem.h"
 #include "SpeedPlaning.h"
+#include "Move.h"
 
 //环形缓冲区中的元素总数量  注意这些值在控制卡长期使用时可能会溢出！！！！
 static int      upPointer = 0;
@@ -269,6 +270,7 @@ void ClearRingBuffer(void)
 	g_iput = 0;
 	downPointer = 0;
 	lengthSum = 0.0f;
+	ThreeWheelVelControl(0,0,0);
 }
 
 

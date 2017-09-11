@@ -131,15 +131,15 @@ int PathFollowing(float percent)
 	{
 		ThreeWheelVelControl(vell,angle1,angularVel + angErr/time*percent);
 	}
-	else if(GetCount() == 0)
-	{
-		ThreeWheelVelControl(0,0,0);
-		return 2;
-	}
 	else
 	{
+		
 		//如果距离行走完成 停车
-		ThreeWheelVelControl(disRealPos2VirTarget,angle1,angularVel);
+		ThreeWheelVelControl(3.0f*disRealPos2VirTarget,angle1,angularVel);
+		if(disRealPos2VirTarget < 10)
+		{
+			return 2;
+		}
 	}
 	
 	return 1;
