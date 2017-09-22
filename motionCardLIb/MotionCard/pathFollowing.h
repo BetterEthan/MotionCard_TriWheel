@@ -10,7 +10,6 @@
 #include "calculate.h"
 
 
-int PathFollowing(float percent);
 float AngleControl(float anglePresent,float angleTarget);
 
 #endif

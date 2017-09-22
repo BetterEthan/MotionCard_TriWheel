@@ -1,107 +1,101 @@
 Dependencies for Project 'motionCard', Target 'MotionCard': (DO NOT MODIFY !)
-F (.\motionCard\Bspline.c)(0x5968D2FD)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\bspline.o --omf_browse .\objects\bspline.crf --depend .\objects\bspline.d)
+F (.\motionCard\Bspline.c)(0x5968D2FD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\bspline.o --omf_browse .\objects\bspline.crf --depend .\objects\bspline.d)
 I (motionCard\Bspline.h)(0x58EDC597)
 I (motionCard\calculate.h)(0x58FB06DD)
-I (motionCard\MotionCard.h)(0x58F766C8)
+I (motionCard\MotionCard.h)(0x59B9F492)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (motionCard\ringBuffer.h)(0x58F37E10)
-I (motionCard\stm32f4xx.h)(0x57E294AE)
+I (motionCard\stm32f4xx.h)(0x59BE1DB2)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x570F4548)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C05B0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
 I (motionCard\posSystem.h)(0x58EDD610)
-F (.\motionCard\pathFollowing.c)(0x59B5F357)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\pathfollowing.o --omf_browse .\objects\pathfollowing.crf --depend .\objects\pathfollowing.d)
-I (motionCard\pathFollowing.h)(0x58FB0F2E)
+F (.\motionCard\pathFollowing.c)(0x59BE1D89)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\pathfollowing.o --omf_browse .\objects\pathfollowing.crf --depend .\objects\pathfollowing.d)
+I (motionCard\pathFollowing.h)(0x59B5F989)
 I (motionCard\calculate.h)(0x58FB06DD)
-I (motionCard\MotionCard.h)(0x58F766C8)
+I (motionCard\MotionCard.h)(0x59B9F492)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (motionCard\ringBuffer.h)(0x58F37E10)
-I (motionCard\stm32f4xx.h)(0x57E294AE)
+I (motionCard\stm32f4xx.h)(0x59BE1DB2)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x570F4548)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C05B0)
 I (motionCard\Bspline.h)(0x58EDC597)
 I (motionCard\posSystem.h)(0x58EDD610)
 I (motionCard\Move.h)(0x58FB076C)
-F (.\motionCard\ringbuffer.c)(0x59B5EC0B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\ringbuffer.o --omf_browse .\objects\ringbuffer.crf --depend .\objects\ringbuffer.d)
-I (motionCard\MotionCard.h)(0x58F766C8)
+F (.\motionCard\ringbuffer.c)(0x59B5EC0B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\ringbuffer.o --omf_browse .\objects\ringbuffer.crf --depend .\objects\ringbuffer.d)
+I (motionCard\MotionCard.h)(0x59B9F492)
 I (motionCard\ringbuffer.h)(0x58F37E10)
 I (motionCard\calculate.h)(0x58FB06DD)
-I (motionCard\stm32f4xx.h)(0x57E294AE)
+I (motionCard\stm32f4xx.h)(0x59BE1DB2)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x570F4548)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C05B0)
 I (motionCard\Bspline.h)(0x58EDC597)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (motionCard\posSystem.h)(0x58EDD610)
 I (motionCard\SpeedPlaning.h)(0x58FB06DF)
 I (motionCard\Move.h)(0x58FB076C)
-F (.\motionCard\posSystem.c)(0x58FAAF84)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\possystem.o --omf_browse .\objects\possystem.crf --depend .\objects\possystem.d)
+F (.\motionCard\posSystem.c)(0x58FAAF84)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\possystem.o --omf_browse .\objects\possystem.crf --depend .\objects\possystem.d)
 I (motionCard\posSystem.h)(0x58EDD610)
 I (motionCard\calculate.h)(0x58FB06DD)
-I (motionCard\MotionCard.h)(0x58F766C8)
+I (motionCard\MotionCard.h)(0x59B9F492)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
-F (.\motionCard\Sampling.c)(0x58FB18C2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\sampling.o --omf_browse .\objects\sampling.crf --depend .\objects\sampling.d)
+F (.\motionCard\Sampling.c)(0x58FB18C2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\sampling.o --omf_browse .\objects\sampling.crf --depend .\objects\sampling.d)
 I (motionCard\Sampling.h)(0x58F60AC2)
-I (motionCard\MotionCard.h)(0x58F766C8)
+I (motionCard\MotionCard.h)(0x59B9F492)
 I (motionCard\calculate.h)(0x58FB06DD)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (motionCard\ringBuffer.h)(0x58F37E10)
-I (motionCard\stm32f4xx.h)(0x57E294AE)
+I (motionCard\stm32f4xx.h)(0x59BE1DB2)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x570F4548)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C05B0)
 I (motionCard\Bspline.h)(0x58EDC597)
 I (motionCard\posSystem.h)(0x58EDD610)
 I (motionCard\flash.h)(0x58A3ED46)
 I (motionCard\stm32f4xx_flash.h)(0x57E294AE)
 I (motionCard\SpeedPlaning.h)(0x58FB06DF)
-F (.\motionCard\flash.c)(0x58A3ED0A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+F (.\motionCard\flash.c)(0x58A3ED0A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
 I (motionCard\flash.h)(0x58A3ED46)
 I (motionCard\stm32f4xx_flash.h)(0x57E294AE)
-I (motionCard\stm32f4xx.h)(0x57E294AE)
+I (motionCard\stm32f4xx.h)(0x59BE1DB2)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x570F4548)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C05B0)
-F (.\MotionCard\SpeedPlaning.c)(0x58FB0F49)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\speedplaning.o --omf_browse .\objects\speedplaning.crf --depend .\objects\speedplaning.d)
+F (.\MotionCard\SpeedPlaning.c)(0x58FB0F49)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\speedplaning.o --omf_browse .\objects\speedplaning.crf --depend .\objects\speedplaning.d)
 I (MotionCard\SpeedPlaning.h)(0x58FB06DF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (MotionCard\MotionCard.h)(0x58F766C8)
+I (MotionCard\MotionCard.h)(0x59B9F492)
 I (MotionCard\ringBuffer.h)(0x58F37E10)
 I (MotionCard\calculate.h)(0x58FB06DD)
-I (MotionCard\stm32f4xx.h)(0x57E294AE)
+I (MotionCard\stm32f4xx.h)(0x59BE1DB2)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x570F4548)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C05B0)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (MotionCard\Move.h)(0x58FB076C)
-F (.\MotionCard\calculate.c)(0x58EDC592)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\calculate.o --omf_browse .\objects\calculate.crf --depend .\objects\calculate.d)
+F (.\MotionCard\calculate.c)(0x58EDC592)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\calculate.o --omf_browse .\objects\calculate.crf --depend .\objects\calculate.d)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (MotionCard\calculate.h)(0x58FB06DD)
-I (MotionCard\MotionCard.h)(0x58F766C8)
+I (MotionCard\MotionCard.h)(0x59B9F492)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-F (.\MotionCard\Move.c)(0x58FB0739)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx --C99-o .\objects\move.o --omf_browse .\objects\move.crf --depend .\objects\move.d)
+F (.\MotionCard\Move.c)(0x58FB0739)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\motionCard-IC:\Users\10025\Desktop\motionCardLIb\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\move.o --omf_browse .\objects\move.crf --depend .\objects\move.d)
 I (MotionCard\Move.h)(0x58FB076C)
-I (MotionCard\MotionCard.h)(0x58F766C8)
+I (MotionCard\MotionCard.h)(0x59B9F492)
 I (MotionCard\calculate.h)(0x58FB06DD)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)

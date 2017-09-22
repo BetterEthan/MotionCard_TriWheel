@@ -30,7 +30,7 @@ extern int jishuuu;
 * @param	percent 速度的百分比，若为1代表100%所规划的速度运行。范围为大于0,如果超过1，会超过机器人承受速度
 * @retval	无
 **********************************************************************************/
-int PathFollowing(float percent)
+int PathFollowing(float percent,float Kp,float viewPercent)
 {
 	static float vell = 200.0f;
 	float angle1 = 0.0f;
@@ -55,8 +55,8 @@ int PathFollowing(float percent)
 	presentLine = GetPosPresent();
 	
 	//根据采集的几十组数据绘制而成
-	VIEW_L = (8.333e-07f * vell * vell * vell + 0.0006667f * vell * vell - 0.2988f * vell + 107.1f) * 0.25f;
-	VIEW_L = VIEW_L > 300 ? 300 : VIEW_L;
+	VIEW_L = (8.333e-07f * vell * vell * vell + 0.0006667f * vell * vell - 0.2988f * vell + 107.1f) * viewPercent;
+	VIEW_L = VIEW_L > 500 ? 500 : VIEW_L;
 	VIEW_L = VIEW_L < 100 ? 100 : VIEW_L;
 	
 	//获取定位系统所计算的机器人实际行走路径长度
@@ -133,9 +133,18 @@ int PathFollowing(float percent)
 	}
 	else
 	{
+		virtualTarget.point = GetRingBufferPoint(GetCount());
+		//计算当前点到目标点方向角度
+		angle1 = CalculateLineAngle(presentLine.point,virtualTarget.point);
+		
+		angularVel = AngleControl(presentLine.direction,GetRingBufferPointPoseAngle(GetCount()));
+		
+		
+		//计算实际位置距离虚拟目标点距离
+		disRealPos2VirTarget = CalculatePoint2PointDistance(presentLine.point,virtualTarget.point);
 		
 		//如果距离行走完成 停车
-		ThreeWheelVelControl(3.0f*disRealPos2VirTarget,angle1,angularVel);
+		ThreeWheelVelControl(Kp*disRealPos2VirTarget,angle1,angularVel);
 		if(disRealPos2VirTarget < 10)
 		{
 			return 2;

@@ -54,7 +54,7 @@ extern float GetPosy(void);
 int BufferZizeInit(int num);
 
 //路径跟随函数 percent: 范围为0~1.1代表规划的最大速度;返回 -1代表传入参数超出范围；返回1代表成功运行
-int PathFollowing(float percent);
+int PathFollowing(float percent,float Kp,float viewPercent);
 
 //示教采点函数，采点时，需要一直调用;返回1代表成功采集
 int PoseSampling(void);
